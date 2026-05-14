@@ -71,6 +71,8 @@ Product - Region Clustering:
 | 1       | Below Average | High     | Volume Products              | 21              |
 | 2       | Moderate      | High     | Staple Products              | 7               |
 | 3       | High          | Low      | Premium / Exclusive Products | 2               |
+
+
 Region - Product Clustering:
 
 | Cluster | Revenue | Quantity | Description           | No. of Regions |
@@ -119,6 +121,7 @@ A key finding during this phase was the impact of `Unit_Price` on model performa
 | Linear Regression | Original + Clusters | 0.8635 | +80.4974%     |
 | KNN               | Original + Clusters | 0.9994 | +0.0709%      |
 | HGBR              | Original + Clusters | 0.9975 | +0.2009%      |
+
 The most striking result is the 80.50% R² improvement in Linear Regression when cluster labels are added — jumping from 0.4784 to 0.8635. This indicates that customer and product-region segments carry strong explanatory power that the original features alone could not capture linearly. The near-perfect scores for KNN and HGBR are a consequence of the synthetic dataset's low variance and deterministic pricing structure rather than genuine generalization ability — in a real-world setting these scores would be lower and the relative improvement from cluster features would be more pronounced.
 ### 6.1 Predicted vs Actual Revenue 
 The following models are trained with original + cluster features
