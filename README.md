@@ -34,7 +34,7 @@ This project applies machine learning to a synthetic beverage sales dataset to e
 ![net_revenue_by_Product_and_Category.png](./net_revenue_by_Product_and_Category.png)
 - 71% of revenue comes from top 20% of SKUs
 ### 3.2 Revenue by Region
-![[revenue_by_region.png]]
+![revenue_by_region.png](./revenue_by_region.png)
 
 -----
 ## 4. Customer Segmentation
@@ -54,7 +54,7 @@ The four clusters produced the following profiles based on their centroids:
  
  Cluster 1 represents the highest-value customers — recent, frequent, and high-spending. Cluster 3 is the most actionable segment, with a recency of 11.84 days compared to ~3 days for all other clusters, signaling disengagement despite reasonable monetary value. Cluster 2 stands out as the most frequent buyers but with the lowest spend, suggesting heavy discount usage or small-basket purchasing behavior.
 
-![[customer_cluster_3d_scatter.png]]
+![customer_cluster_3d_scatter.png](./customer_cluster_3d_scatter.png)
 
 ----
 ## 5. Product-Region Segmentation
@@ -83,7 +83,7 @@ Region - Product Clustering:
 
 The revenue heat map, normalized by product row, reveals the distribution of each product's revenue across regions. Products with even distributions (~equal % per region) are regional staples with consistent demand, while products with one dominant cell are regional exclusives.
 
-![[product_region_heatmap.png]]
+![product_region_heatmap.png](./product_region_heatmap.png)
 
 ----
 ## 6. Revenue Prediction
@@ -124,11 +124,11 @@ The most striking result is the 80.50% R² improvement in Linear Regression when
 The following models are trained with original + cluster features
 
 - Linear Regression
-![[lr_pva.png]]
+![lr_pva.png](./lr_pva.png)
 - KNN
-![[knn_pva.png]]
+![knn_pva.png](./knn_pva.png)
 - HGBR
-![[hgbr_pva.png]]
+![hgbr_pva.png](./hgbr_pva.png)
 
 --- 
 ## 7. Key Findings
