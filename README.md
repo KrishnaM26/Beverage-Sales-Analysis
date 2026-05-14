@@ -128,8 +128,10 @@ The following models are trained with original + cluster features
 
 - Linear Regression
 ![lr_pva.png](./lr_pva.png)
+
 - KNN
 ![knn_pva.png](./knn_pva.png)
+
 - HGBR
 ![hgbr_pva.png](./hgbr_pva.png)
 
