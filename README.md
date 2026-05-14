@@ -23,7 +23,9 @@ This project applies machine learning to a synthetic beverage sales dataset to e
 | Total_Price   | Float       | Final order value after discount               |
 | Region        | Categorical | Geographic sales region                        |
 | Order_Date    | Date        | Date order was placed                          |
-*Note: The synthetic nature of the dataset means pricing relationships are largely deterministic — a pattern that revealed an important data leakage issue during modeling, discussed further in the revenue prediction section.
+
+
+*Note: The synthetic nature of the dataset means pricing relationships are largely deterministic — a pattern that revealed an important data leakage issue during modeling, discussed further in the revenue prediction section.*
 
 ----
 ## 3. Exploratory Data Analysis
