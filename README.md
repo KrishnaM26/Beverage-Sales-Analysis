@@ -139,7 +139,7 @@ The following models are trained with original + cluster features
 ![hgbr_pva.png](./hgbr_pva.png)
 
 --- 
-## 7. Key Findings
+## 7. Key Findings & Insights
 
 - **Re-engage At-Risk / Mid-Spender customers.** They have the highest average recency of 11.84 days, which is at least 4x longer than all the other customer types. They have an average spending of about $101,926 with ranks them the 2nd highest spenders of all 4 customer types. A well targeted campaign to get a new order can easily place them back in Champion territory.
 
