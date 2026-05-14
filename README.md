@@ -31,7 +31,7 @@ This project applies machine learning to a synthetic beverage sales dataset to e
 ## 3. Exploratory Data Analysis
 
 ### 3.1 Product Revenue by Product and Category
-![[net_revenue_by_Product_and_Category.png]]
+![net_revenue_by_Product_and_Category.png]
 - 71% of revenue comes from top 20% of SKUs
 ### 3.2 Revenue by Region
 ![[revenue_by_region.png]]
